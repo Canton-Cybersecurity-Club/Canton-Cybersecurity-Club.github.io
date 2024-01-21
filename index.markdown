@@ -7,4 +7,3 @@ title: Home | C^3
 ---
 # C^3
 
-[Calendar](https://www.linktocalendar.com)
