@@ -1,18 +1,17 @@
 ---
-layout: page
-title: About
+layout: default
+title: About | C^3
 permalink: /about/
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# About C^3
 
 
-[jekyll-organization]: https://github.com/jekyll
+## Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt lectus vitae vehicula gravida. Suspendisse rutrum pretium elementum. Etiam magna nibh, condimentum vitae maximus et, sodales imperdiet lectus. Pellentesque rhoncus facilisis lorem nec aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velit quam, varius non luctus sed, condimentum et ligula. Aenean eleifend ac risus eu finibus.
+
+
+You can find us at.
+[discord][discord-join-link] /
+[github-club-orginization](https://github.com/Canton-Cybersecurity-Club)
+
+
+[discord-join-link]: https://discord.gg/M7AsayhWqy
