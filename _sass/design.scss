@@ -1,8 +1,32 @@
+h1 {
+  color: $green;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+a {
+  color: $orange;
+  font-weight: 600;
+  //hover link style
+
+}
+
+//Main Body Style
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: $background;
+  color: $white;
+  background-image: url('/assets/images/ccubedlogoDark.png');
+}
+
 
 // Navigation Style
-nav{
+nav {
   font-family: 'IBM Plex Mono', monospace;
-  font-size:large;
+  font-size: large;
   text-decoration: none;
   text-align: center;
   border: $white 2px solid;
@@ -10,68 +34,56 @@ nav{
   margin: 0 auto;
   padding: 6px;
   background-color: $white-trans;
+
+  //current page navigation
+  .current {
+    font-size: larger;
+    color: $green;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover{
+      font-style: italic;
+    }
+
+  }
+  //not current page navigation
+  .n-current {
+    color: $white;
+    text-decoration: none;
+    &:hover{
+      color:$green;
+      font-style: italic;
+    }
+  }
+  // make the navigation style change to green when hovering
 }
 
-nav .current{
-  font-size: larger;
-  color: $green;
-  font-weight: bold;
-  text-decoration: none;
-
-}
-
-nav .n-current{
-  color: $white;
-  font-style: italic;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: $green;
-}
-
-
-//Main Body Style
-body{
-  font-family: 'IBM Plex Mono', monospace;
-  background-color: #282a36;
-  color:#f8f8f2;
-  background-image: url('/assets/images/ccubedlogoDark.png');
-}
-a{
-  color: $orange;
-  font-weight: 600;
-}
-a:hover{
-  color: $orange_dark;
-}
-
-
-h1{
-  color:#50fa7b;
-
-  font-weight:700;
-}
-h2{
-  font-weight: 300;
-}
-
-footer{
+// footer styles
+footer {
   text-align: center;
   padding: 6px 0;
-}
-footer svg{
-  color:#50fa7b;
-  border: $white 2px solid;
-  background-color: $white-trans;
-  padding: 10px;
+
+  svg {
+    color: $white;
+    border: $white 2px solid;
+    background-color: $white-trans;
+    padding: 10px;
+    &:hover{
+      color:$green;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: $green 2px solid;    
+    }
+  }
+
 }
 
-.main{
+// custom class styles
+.main {
   max-width: 650;
 }
 
-.content{
+.content {
   max-width: 888px;
   margin: 10px auto;
   padding: .5rem 1.25rem;
@@ -79,15 +91,9 @@ footer svg{
   text-align: center;
   background-color: $white-trans;
   border: $white 2px solid;
-
-
-  // opacity: 99%;
+  a{
+    &:hover{
+      color:$purple;
+  }
 }
-
-/* Set a specific color for each brand */
-
-
-// .drac{
-
-
-// }
+}
