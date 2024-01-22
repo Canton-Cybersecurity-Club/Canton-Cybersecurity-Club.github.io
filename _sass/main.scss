@@ -1,3 +1,63 @@
-.current {
-    color: green;
-  }
+
+// Navigation Style
+nav{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size:large;
+  text-decoration: none;
+}
+nav .current{
+  font-size: larger;
+  color: #50fa7b;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+nav .n-current{
+  color: #f8f8f2;
+  font-style: italic;
+  text-decoration: none;
+}
+
+
+//Main Body Style
+body{
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #282a36;
+  color:#f8f8f2;
+
+}
+
+
+h1{
+  color:#50fa7b;
+
+  font-weight:700;
+}
+h2{
+  font-weight: 300;
+}
+
+.social-links svg{
+  color:#50fa7b;
+}
+
+
+
+/* Set a specific color for each brand */
+
+
+// .drac{
+//   background: #282a36;
+// currentline: #44475a
+// Selection: #44475a;
+// Foreground: #f8f8f2;
+// Comment: #6272a4 ;
+// Cyan: #8be9fd 	;
+// Green: #50fa7b;
+// Orange: #ffb86c;
+// Pink: #ff79c6;
+// Purple: #bd93f9;
+// Red: #ff5555;
+// Yellow: #f1fa8c
+
+// }

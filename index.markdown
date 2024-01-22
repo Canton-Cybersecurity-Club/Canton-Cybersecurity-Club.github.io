@@ -6,4 +6,5 @@ layout: default
 title: Home | C^3 hello
 ---
 # C^3 
+## Canton Cybersecurity Club
 
