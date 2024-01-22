@@ -37,13 +37,10 @@ nav {
 
   //current page navigation
   .current {
-    font-size: larger;
     color: $green;
     font-weight: bold;
     text-decoration: none;
-    &:hover{
-      font-style: italic;
-    }
+    font-style: italic;
 
   }
   //not current page navigation
