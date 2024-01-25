@@ -2,8 +2,18 @@
 layout: default
 title: Blog | C^3
 ---
-<h1>Latest Posts</h1>
+<h1>Latest Blog Posts</h1>
 
+<!-- Fix the alignment for blog post titles -->
+
+<style type="text/css" media="screen">
+h2{
+  text-align: left;
+}
+</style>
+
+
+<!-- Start the layout for blog post list -->
 <ul>
   {% for post in site.posts %}
     <li>
