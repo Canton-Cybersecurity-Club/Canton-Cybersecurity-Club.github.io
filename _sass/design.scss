@@ -1,55 +1,78 @@
 h1 {
+  font-family: 'Krypton', monospace;
+  font-size: 200%;
+  font-variation-settings: 'wght' 800,'wdth' 100,'slnt' 0;
   color: $green;
-  font-weight: 700;
 }
-
 h2 {
-  font-weight: 300;
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Argon', monospace;
+  font-variation-settings: 'wght' 800,'wdth' 100,'slnt' 0;
 }
-
-a {
+h3{
+  text-align: left;
+  font-size: 125%;
+  font-family: 'Argon', monospace;
+  font-variation-settings: 'wght' 500,'wdth' 100,'slnt' 0;
+}
+p{
+  text-align: left;
+  font-family: 'Neon', monospace;
+  font-variation-settings: 'wght' 300,'wdth' 100,'slnt' 0;
+}
+a{
+  font-family: 'Xenon', monospace;
   color: $orange;
-  font-weight: 600;
-  //hover link style
-
 }
 
 //Main Body Style
 body {
-  font-family: 'IBM Plex Mono', monospace;
+  // font-family: 'IBM Plex Mono', monospace;
+  font-size: 100%;
   background-color: $background;
   color: $white;
-  background-image: url('/assets/images/ccubedlogoDark.png');
+  background-image: url('/assets/images/c3 pattern.svg');
+  background-size: 25%;
+
 }
 
 
 // Navigation Style
 nav {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: large;
-  text-decoration: none;
+
+  font-variation-settings: 'wght' 200;
+  font-size: 150%;
   text-align: center;
-  border: $white 2px solid;
-  width: fit-content;
-  margin: 0 auto;
+  // border: $white 3px solid;
+  // width: fit-content;
+  // margin: 0 auto;
   padding: 6px;
-  background-color: $white-trans;
+  // background-color: $white-trans;
 
   //current page navigation
   .current {
+    border: $green 3px dashed;    
+    padding: 6px;
     color: $green;
     font-weight: bold;
     text-decoration: none;
-    font-style: italic;
+    font-family: 'Krypton', monospace;
+    font-variation-settings: 'wght' 800;
+    background-color: $white-trans;
 
   }
   //not current page navigation
   .n-current {
+    border: $white 3px solid;
+    padding: 6px;
+    font-family: 'Krypton', monospace;
+    font-variation-settings: 'wght' 800;
     color: $white;
+    background-color: $white-trans;
     text-decoration: none;
     &:hover{
       color:$green;
-      font-style: italic;
     }
   }
   // make the navigation style change to green when hovering
@@ -62,14 +85,13 @@ footer {
 
   svg {
     color: $white;
-    border: $white 2px solid;
+    border: $white 3px solid;
     background-color: $white-trans;
     padding: 10px;
     &:hover{
       color:$green;
-      padding-left: 20px;
-      padding-right: 20px;
-      border: $green 2px solid;    
+
+      border: $green 3px dashed;    
     }
   }
 
@@ -87,7 +109,7 @@ footer {
   box-sizing: border-box;
   text-align: center;
   background-color: $white-trans;
-  border: $white 2px solid;
+  border: $white 3px solid;
   a{
     &:hover{
       color:$purple;

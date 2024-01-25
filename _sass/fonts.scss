@@ -1,0 +1,50 @@
+// Using the font in your stylesheet requires these settings as an example
+// font-variation-settings: 'wght' 600,'wdth' 100,'slnt' -6;
+
+// The weight axis ranges from 200 to 800
+//     200: Extra Light
+//     300: Light
+//     400: Regular
+//     500: Medium
+//     600: Semibold
+//     700: Bold
+//     800: ExtraBold
+
+// The slant axis ranges from 0 to -11°
+// The more negative the value, the more the letters are slanted. At the midpoint of the range some letters change their shapes to become true italics.
+//     0: Normal
+//     -5.5°: Swap obliques for italic letterforms
+//     -11°: Italic
+
+// The width axis ranges from 100 to 125.
+//     100: Normal
+//     112.5: Semiwide
+//     125: Wide
+
+// https://monaspace.githubnext.com/
+
+// set variable to the font path
+$fontpath: "/assets/fonts/varwebfonts";
+
+// load and rename the fonts
+@font-face {
+    src: url("#{$fontpath}/MonaspaceArgonVarVF.woff2") format("woff2");
+    font-family: "Argon";
+}
+@font-face {
+    src: url("#{$fontpath}/MonaspaceKryptonVarVF.woff2") format("woff2");
+    font-family: "Krypton";
+}
+
+@font-face {
+    src: url("#{$fontpath}/MonaspaceNeonVarVF.woff2") format("woff2");
+    font-family: "Neon";
+}
+@font-face {
+    src: url("#{$fontpath}/MonaspaceRadonVarVF.woff2") format("woff2");
+    font-family: "Radon";
+}
+@font-face {
+    src: url("#{$fontpath}/MonaspaceXenonVarVF.woff2") format("woff2");
+    font-family: "Xenon";
+}

@@ -4,5 +4,5 @@
   link: /about/
 - name: Blog
   link: /blog.html
-- name: Wiki
-  link: /wiki/
+# - name: Wiki
+#   link: /wiki/
