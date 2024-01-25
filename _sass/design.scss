@@ -1,0 +1,96 @@
+h1 {
+  color: $green;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+a {
+  color: $orange;
+  font-weight: 600;
+  //hover link style
+
+}
+
+//Main Body Style
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: $background;
+  color: $white;
+  background-image: url('/assets/images/ccubedlogoDark.png');
+}
+
+
+// Navigation Style
+nav {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: large;
+  text-decoration: none;
+  text-align: center;
+  border: $white 2px solid;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 6px;
+  background-color: $white-trans;
+
+  //current page navigation
+  .current {
+    color: $green;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+
+  }
+  //not current page navigation
+  .n-current {
+    color: $white;
+    text-decoration: none;
+    &:hover{
+      color:$green;
+      font-style: italic;
+    }
+  }
+  // make the navigation style change to green when hovering
+}
+
+// footer styles
+footer {
+  text-align: center;
+  padding: 6px 0;
+
+  svg {
+    color: $white;
+    border: $white 2px solid;
+    background-color: $white-trans;
+    padding: 10px;
+    &:hover{
+      color:$green;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: $green 2px solid;    
+    }
+  }
+
+}
+
+// custom class styles
+.main {
+  max-width: 650;
+}
+
+.content {
+  max-width: 888px;
+  margin: 10px auto;
+  padding: .5rem 1.25rem;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: $white-trans;
+  border: $white 2px solid;
+  a{
+    &:hover{
+      color:$purple;
+  }
+}
+}
