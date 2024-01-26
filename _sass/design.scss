@@ -73,6 +73,7 @@ nav {
     text-decoration: none;
     &:hover{
       color:$green;
+      border: $green 3px dashed;   
     }
   }
   // make the navigation style change to green when hovering
