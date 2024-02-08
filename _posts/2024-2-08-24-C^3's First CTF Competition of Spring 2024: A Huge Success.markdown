@@ -11,7 +11,7 @@ Your Canton Cybersecurity Club participated in the Bearcat CTF hosted by the Uni
 
 ### C^3' CTF Roster
 | Member | Points |
-|---------|--------|
+| --------- | --------- |
 | _ep | 2400 |
 | roophil | 1700 |
 | Tennessee | 700 |
@@ -24,7 +24,7 @@ CTF experiences like this are invaluable. Being able to apply the concepts learn
 
 ### Concepts Explored
 | Challange | Concept | Method |
-|------------|---------|--------|
+| --------- | --------- | --------- |
 | No Humans | robots.txt & user agents | Parse hundreds of lines in the robots.txt file to find a working path. |
 | Proclicker V2 | cookies & source code | Manipulate client-side cookies after analyzing weaknesses in source code. |
 | Password Buffer | buffer overflow | specially crafted user input was used to force a password we controlled. |
