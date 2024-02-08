@@ -33,6 +33,12 @@ github_username:  Canton-Cybersecurity-Club
 plugins:
   - jekyll-feed
 
+# Allowing Github Pages to parse Correctly
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
