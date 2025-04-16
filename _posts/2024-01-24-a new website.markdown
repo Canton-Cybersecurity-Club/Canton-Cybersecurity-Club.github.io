@@ -5,7 +5,7 @@ title: A New Website!
 ---
 
 ## JOIN US!!!
-We are actively seeking new people who are interested in participating in [CTF](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)) events. If you would like to join us and learn with us along the way, consider joining [Discord](https://discord.gg/M7AsayhWqy). 
+We are actively seeking new people who are interested in participating in [CTF](https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)) events. If you would like to join us and learn with us along the way, consider joining [Discord](https://discord.gg/uu6tw8AgQT). 
 
 Currently our club has remote meetings on discord because of the large ammount of remote students. 
 
