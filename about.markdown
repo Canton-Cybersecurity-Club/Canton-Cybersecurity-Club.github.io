@@ -22,7 +22,7 @@ Our mission is clear – educating, empowering, and inspiring individuals intere
 Join us for our regular club meetings, where we discuss cybersecurity trends, host guest speakers, and engage in skill-building activities.
 
 ### Capture the Flag Competitions:
-sExperience the thrill of CTF competitions. Test your skills, collaborate with teammates, and challenge yourself to solve complex cybersecurity puzzles.
+Experience the thrill of CTF competitions. Test your skills, collaborate with teammates, and challenge yourself to solve complex cybersecurity puzzles.
 
 Security Awareness Campaigns: Make a difference on campus by participating in our security awareness campaigns. Help educate your peers on the importance of cyber safety.
 
