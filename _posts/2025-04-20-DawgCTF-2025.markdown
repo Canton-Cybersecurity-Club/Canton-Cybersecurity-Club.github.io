@@ -6,7 +6,9 @@ title: DawgCTF 2025 Results
 
 ## c^3 got that dawg in him (DawgCTF 2025)
 
-Great job everyone! I really enjoyed working through the OSINT challenges this event.
+Great job everyone! I enjoyed working through the OSINT challenges at this event. We even got a cool, super authentic certificate! 
+
+[Authentic Certificate](../assets/ctf_results/DawgCTF_2025/DawgCTF_2025_Certificate.pdf)
 
 ### Results: 
 79th Place
