@@ -8,7 +8,7 @@ title: DawgCTF 2025 Results
 
 Great job everyone! I enjoyed working through the OSINT challenges at this event. We even got a cool, super authentic certificate! 
 
-[Authentic Certificate](../assets/ctf_results/DawgCTF_2025/DawgCTF_2025_Certificate.pdf)
+[Authentic Certificate](/assets/ctf_results/DawgCTF_2025/DawgCTF_2025_Certificate.pdf)
 
 ### Results: 
 79th Place
@@ -20,4 +20,4 @@ Caleb Wood,
 Evan Pendergraft,
 John Martin,
 
-![PointBreakdown](../assets/ctf_results/DawgCTF_2025/points.png)
+![PointBreakdown](/assets/ctf_results/DawgCTF_2025/points.png)
