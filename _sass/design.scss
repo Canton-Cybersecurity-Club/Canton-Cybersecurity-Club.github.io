@@ -98,6 +98,16 @@ footer {
 
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: $white 3px solid;
+  background-color: $white-trans;
+  padding: 6px;
+}
+
 // custom class styles
 .main {
   max-width: 650;
