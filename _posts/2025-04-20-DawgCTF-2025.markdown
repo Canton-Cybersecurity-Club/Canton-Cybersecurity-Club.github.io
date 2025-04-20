@@ -1,0 +1,21 @@
+---
+layout: post
+author: Evan Pendergraft
+title: DawgCTF 2025 Results
+---
+
+## c^3 got that dawg in him (DawgCTF 2025)
+
+Great job everyone! I really enjoyed working through the OSINT challenges this event.
+
+### Results: 
+79th Place
+
+### Participants:
+
+Kolbe Smith, 
+Caleb Wood,
+Evan Pendergraft,
+John Martin,
+
+![PointBreakdown](../assets/ctf_results/DawgCTF_2025/points.png)

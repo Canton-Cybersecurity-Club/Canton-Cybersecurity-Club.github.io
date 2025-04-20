@@ -20,4 +20,4 @@ title: Home | C^3
 
 Or you can find the link at 
 
-[https://www.cyber.canton.edu](https://www.cyber.canton.edu).
+[https://cyber.canton.edu](https://cyber.canton.edu).
